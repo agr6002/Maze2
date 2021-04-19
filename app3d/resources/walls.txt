@@ -1,0 +1,41 @@
+SURVIVAL MAZE GAME
+
+border = 1 *
+  //find something
+
+lava wall = 2 *
+  //find a texture
+
+water wall = 3 * 
+  //find a texture
+
+doors = 4 *
+  //find a texture
+
+normal wall = 5 *
+  //find a texture
+
+regen wall = 6; *
+  //find a texture
+
+sticky walls = 7; (make you go slower) *
+  //we could use swirly png/jpg
+
+poison walls = 8; (makes you slowly take damage) *
+  //purple/goopy?
+
+exit/entrance = 9 *
+  //something obvious?
+
+
+    Ideas
+      Hold Torch-everything else is dark
+      need to eat food
+      has health bar
+      enemies in game
+
+
+      BufferStrategy bs = app.getBufferStrategy();
+    Graphics g = bs.getDrawGraphics();
+    g.drawLine(app.WIDTH - halfLength, app.HEIGHT, app.WIDTH + halfLength, app.HEIGHT);
+    g.drawLine(app.WIDTH, app.HEIGHT - halfLength, app.WIDTH, app.HEIGHT  + halfLength);
